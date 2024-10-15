@@ -1,0 +1,37 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 5,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["memory", "battery"],
+
+  "memory": {
+    "interval": 30,
+    "format": "RAM: {used:0.2f} / {total:0.2f} GiB",
+    "tooltip": false
+  },
+
+  "battery": {
+    "format": "{icon}  {capacity}%",
+    "format-charging": "󰂄  {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+  },
+
+  "clock": {
+    "format": "󰥔   {:%a, %d/%m  %H:%M}",
+    "format-alt": "󰥔   {:%H:%M}"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "urgent": "󰀨",
+      "active": "",
+      "default": ""
+    },
+
+    "sort-by-number": true
+  },
+}

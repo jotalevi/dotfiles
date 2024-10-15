@@ -1,0 +1,2 @@
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.1.200\",\"app_state\":\"MISSING\",\"created_timestamp\":1728955231,\"device_id\":\"5a0b91a9-3a15-3631-a847-2c1794afa2e7\",\"dial_location_url\":\"http://192.168.1.200:60000/dd.xml\",\"display_name\":\"Firestick de Clea\",\"last_seen\":1728955283,\"manufacturer\":\"Amazon\",\"model_name\":\"AFTMM\",\"product_cap\":\"\",\"public_ip\":\"200.74.78.244\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"dc54d70bba50\",\"port\":9,\"retries\":800}}]"

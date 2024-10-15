@@ -1,0 +1,6 @@
+2024/10/14-22:42:34.688 52e Reusing MANIFEST /home/neto/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2024/10/14-22:42:34.715 52e Recovering log #3
+2024/10/14-22:42:34.717 52e Reusing old log /home/neto/.config/YouTube Music/Local Storage/leveldb/000003.log 
+2024/10/14-23:38:54.935 52f Level-0 table #5: started
+2024/10/14-23:38:54.941 52f Level-0 table #5: 12452 bytes OK
+2024/10/14-23:38:54.945 52f Delete type=0 #3

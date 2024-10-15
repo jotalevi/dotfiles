@@ -1,0 +1,58 @@
+2024-10-10 23:13:01.209 [info] [main] Log level: Info
+2024-10-10 23:13:01.209 [info] [main] Validating found git in: "git"
+2024-10-10 23:13:01.209 [info] [main] Using git "2.47.0" from "git"
+2024-10-10 23:13:01.209 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-10 23:13:01.209 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-10 23:20:04.175 [info] [main] Log level: Info
+2024-10-10 23:20:04.175 [info] [main] Validating found git in: "git"
+2024-10-10 23:20:04.175 [info] [main] Using git "2.47.0" from "git"
+2024-10-10 23:20:04.175 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-10 23:20:04.175 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-10 23:20:04.180 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-10 23:20:04.188 [info] [Model][openRepository] Opened repository: /home/neto/projects/shiftlanding
+2024-10-10 23:20:04.201 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-10 23:20:04.237 [info] > git config --get commit.template [41ms]
+2024-10-10 23:20:04.254 [info] > git rev-parse --show-toplevel [18ms]
+2024-10-10 23:20:04.254 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-10 23:20:04.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-10 23:20:04.261 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/neto/projects/shiftlanding/.git/refs/remotes/origin/main'
+2024-10-10 23:20:04.262 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-10 23:20:04.272 [info] > git status -z -uall [6ms]
+2024-10-10 23:20:04.273 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-10 23:20:04.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-10 23:20:04.294 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-10 23:20:04.294 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-10 23:20:04.299 [info] > git config --get commit.template [12ms]
+2024-10-10 23:20:04.331 [info] > git reflog main --grep-reflog=branch: Created from *. [33ms]
+2024-10-10 23:20:04.338 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-10 23:20:04.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-10-10 23:20:04.346 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/neto/projects/shiftlanding/.git/refs/remotes/origin/main'
+2024-10-10 23:20:04.347 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-10 23:20:04.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2024-10-10 23:20:04.362 [info] > git status -z -uall [11ms]
+2024-10-10 23:20:04.362 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-10-10 23:20:04.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 23:20:04.374 [info] > git config --local branch.main.vscode-merge-base origin/main [13ms]
+2024-10-10 23:20:04.380 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-10-10 23:20:04.385 [info] > git config --get commit.template [5ms]
+2024-10-10 23:20:04.385 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-10-10 23:20:04.402 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2024-10-10 23:20:04.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-10 23:20:04.412 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/neto/projects/shiftlanding/.git/refs/remotes/origin/main'
+2024-10-10 23:20:04.412 [info] > git diff --name-status -z --diff-filter=ADMR 3433ff337ad9c0fae3adf288c130f60bbc8f9230...refs/remotes/origin/main [5ms]
+2024-10-10 23:20:04.413 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-10 23:20:04.421 [info] > git status -z -uall [5ms]
+2024-10-10 23:20:04.422 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-10 23:20:04.709 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-10 23:20:05.411 [info] > git show --textconv :main.js [8ms]
+2024-10-10 23:20:05.416 [info] > git ls-files --stage -- /home/neto/projects/shiftlanding/main.js [6ms]
+2024-10-10 23:20:05.422 [info] > git cat-file -s 422d7728ad98666812c8fd7b8d18138e6e69f429 [1ms]
+2024-10-10 23:20:05.451 [info] > git config --get commit.template [3ms]
+2024-10-10 23:20:05.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-10 23:20:05.467 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/neto/projects/shiftlanding/.git/refs/remotes/origin/main'
+2024-10-10 23:20:05.468 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-10 23:20:05.484 [info] > git status -z -uall [9ms]
+2024-10-10 23:20:05.485 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-10 23:20:05.548 [info] > git ls-files --stage -- /home/neto/projects/shiftlanding/main.js [1ms]
+2024-10-10 23:20:05.557 [info] > git cat-file -s 422d7728ad98666812c8fd7b8d18138e6e69f429 [2ms]
+2024-10-10 23:20:05.566 [info] > git show --textconv :main.js [1ms]
